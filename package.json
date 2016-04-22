@@ -1,0 +1,32 @@
+{
+    "name": "lera-site",
+    "version": "0.0.1",
+    "author": {
+        "name": "Valeriia Zaibert",
+        "email": "vszaibert@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/zlerok/zlerok.github.io"
+    },
+    "homepage": "https://zlerok.github.io",
+    "contributors": [
+        {
+            "name": "Valeriia Zaibert",
+            "email": "vszaibert@gmail.com"
+        },
+        {
+            "name": "Nikolay Kapliev",
+            "email": "nkapliev@gmail.com"
+        }
+    ],
+    "devDependencies": {
+        "http-server": "^0.8",
+        "phantomjs": "^2.1.x",
+        "gemini": "^3.x"
+    },
+    "scripts": {
+        "pretest": "",
+        "test": "gemini test test/gemini"
+    }
+}

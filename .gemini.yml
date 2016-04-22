@@ -1,0 +1,33 @@
+rootUrl: http://localhost:8080/
+screenshotsDir: './screens'
+retry: 2
+
+browsers:
+  PhantomJS-desktop-mini:
+    windowSize: 1024x600
+    desiredCapabilities:
+      browserName: phantomjs
+
+  PhantomJS-desktop-middle:
+    windowSize: 1280x720
+    desiredCapabilities:
+      browserName: phantomjs
+
+  PhantomJS-desktop-large:
+    windowSize: 1600x1080
+    desiredCapabilities:
+      browserName: phantomjs
+
+  PhantomJS-mobile-landscape:
+    windowSize: 667x375
+    desiredCapabilities:
+      browserName: phantomjs
+
+  PhantomJS-mobile-portrait:
+    windowSize: 375x667
+    desiredCapabilities:
+      browserName: phantomjs
+
+system:
+  coverage:
+    enabled: true
