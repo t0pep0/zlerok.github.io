@@ -6,4 +6,4 @@ I publish here some notes about my professional life and hobbies: computer scien
 Please :star: this repo if you like my site :wink:
 
 P.S.  
-If you found some mistakes or wrongs please tell me about this by creating of issue.
+If you found some mistakes please tell me about it by creating an issue.
